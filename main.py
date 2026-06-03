@@ -471,8 +471,8 @@ def build_dashboard() -> None:
     # URL до raw CSV-файлу у GitHub-репозиторії
     # Замініть це посилання на актуальне посилання вашого репозиторію
     CSV_URL: str = (
-        "https://raw.githubusercontent.com/1moreee/qwen/refs/heads/main/sample_network_logs.csv"
-        "main/sample_network_logs.csv"
+        "https://raw.githubusercontent.com/1moreee/qwen/"
+        "refs/heads/main/sample_network_logs.csv"
     )
 
     with st.sidebar:
